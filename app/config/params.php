@@ -9,6 +9,6 @@
 
   // 2. Définir les paramètres de connexion à lma db
     define('HOSTNAME', 'localhost:8889');
-    define('DBNAME', 'wed_project');
+    define('DBNAME',   'wed_project');
     define('USERNAME', 'root');
     define('USERPWD' , 'root');
