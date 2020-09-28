@@ -1,0 +1,14 @@
+
+MISE EN PLACE DU FRONT
+	1. Les concepts de PHP: Les ateliers PHP
+	2. Les principes du MVC: playlist -> Le modèle MVC en PHP
+	3. Playlist du projet READIT (pas de ré-écriture d'URL)
+		Les liens doivent être en post/3/titre-de-l-article
+		au lieu de ?postId=3
+		> Vers le HTACCESS
+	4. Ré-écriture d'URL: Playlist -> RE-ECRITURE D'URL AVEC .HTACCESS
+
+MISE EN PLACE DU BACKOFFICE
+	1. Playlist -> Material Blog - BackOffice MVC Procédural
+	   Commencer au début
+
