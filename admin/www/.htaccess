@@ -12,10 +12,21 @@ RewriteEngine on
 # ROUTES
 #--------------------------------------------------
 
-# DECONNEXION DU USER
-# PATTERN: user/logout
-# VERS: index.php?user=logout
-   RewriteRule ^user\/logout$ index.php?user=logout [L]
+# -------------------------------
+# ROUTES DES CATEGORIES
+# -------------------------------
+  # LISTE DES CATEGORIES
+  # PATTERN: categories
+  # VERS: index.php?categories=index
+     RewriteRule ^categories$ index.php?categories=index [L]
+
+# -------------------------------
+# ROUTES DU USER
+# -------------------------------
+  # DECONNEXION DU USER
+  # PATTERN: user/logout
+  # VERS: index.php?user=logout
+     RewriteRule ^user\/logout$ index.php?user=logout [L]
 
 # --------------------------------------------------
 RewriteCond %{REQUEST_URI} !\.(js|css|jpg|gif|zip|png|pdf)$ [NC]
